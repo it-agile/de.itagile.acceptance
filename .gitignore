@@ -1,6 +1,6 @@
 # Ignore WebDriver executables
-chromedriver
-Geckodriver
+src/**/chromedriver
+src/**/geckodriver
 
 # Ignore Gradle project-specific cache directory
 .gradle
