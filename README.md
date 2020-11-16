@@ -27,7 +27,7 @@ For Safari you need to find `/usr/bin/safaridriver` on your mac and execute `saf
 * Cucumber reports are generated. 
 * If a scenario fails, a screenshot of the current webpage is embeded into the report. See in `Hooks.java` at `@After`.
 * For changing, if reports should be generated when running from 
-    - console, look in `build.gradle` at `'--plugin' = 'html:...'` and 
+    - console, look in `build.gradle` at `'--plugin' = 'html:...'` 
     - within the IDE, look in `RunAllFeatures.java` at `@CucumberOptions`
 
 ## IDE Cucumber Plugins
