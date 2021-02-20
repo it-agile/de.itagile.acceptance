@@ -11,7 +11,6 @@ public class SeleniumHelper {
 	 * // Call it like this. Use By.id or what every you need to find the element
 	 * SeleniumHelper.jsClick(driver.findElement(By.id("theUniqueIdOfTheElement")), driver);
 	 * </pre>
-	 * You could also try to use the Actions class to chain methods
 	 * 
 	 * @see org.openqa.selenium.JavascriptExecutor
 	 * @see org.openqa.selenium.interactions.Actions#moveToElement(WebElement)
