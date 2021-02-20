@@ -1,5 +1,7 @@
 package de.itagile.acceptance;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -14,6 +16,8 @@ public class WebDriverWrapper {
 	public WebDriver getDriver() {
 		if(driver == null)
 			driver = new ChromeDriver();
+		// Implicit wait because of elements that might load asynchronously and might take some seconds
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return driver;
 	}
 	
